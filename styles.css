@@ -1,0 +1,173 @@
+.imagens-slider{
+   position: relative;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+}
+
+/* Escondendo os slides para deixar só o primeiro que tiver classe mostrar aparecer */
+.imagens-slider .slide{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100vw;
+   height: 100%;
+   position: absolute;
+   opacity: 0;
+   transition: 0.5s ease-out;
+   display: flex;
+   align-items: center;
+}
+
+.imagens-slider .slide.mostrar{
+   opacity: 1;
+}
+
+.slide2{
+   background: url(./src/images/imagem2.png);
+}
+
+.seta-esquerdo, .seta-direito{
+   position: absolute;
+   z-index: 1;
+}
+
+.seta-esquerdo{
+   left: 4%;
+   transform: rotateY(180deg);
+}
+
+.seta-direito{
+   right: 4%;
+}
+
+.opacidade{
+   opacity:0.6;
+   /* cursor defautl significa que o botão ficará sem click */
+   cursor: default;
+}
+
+.conteudo{
+   background-color: #fff;
+   margin-left: 180px;
+   padding: 65px 60px;
+   width: 620px;
+   border-radius: 10px;
+}
+
+.conteudo .titulo{
+   margin-bottom: 80px;
+   font-size: 5rem;
+   font-weight: 400;
+}
+
+.conteudo .texto{
+   font-size: 2.5rem;
+   font-weight: 300;
+   margin-bottom: 50px;
+}
+
+.conteudo .link{
+   font-size: 3rem;
+   font-weight: 700;
+}
+
+.link.saberMais2{
+   color: #C50000;
+}
+
+.link.saberMais3{
+   color: #D9DD10;
+}
+
+.link.saberMais4{
+   color: #10ACDD;
+}
+
+
+
+.slide3{
+   background: url(./src/images/imagem3.png)
+}
+.slide4{
+   background: url(./src/images/imagem4.png)
+}
+
+
+
+/* .backs{
+    width: 1920px;
+    height: 1080px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.back2{
+    background: url(./src/images/imagem2.png)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+.back3{
+    background: url(./src/images/imagem3.png)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+.back4{
+    background: url(./src/images/imagem4.png)
+    no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.texto{
+    width: 620px;
+    height: 700px;
+    margin: 186px auto 194px 180px;
+    background-color: #ffffff;
+    position:absolute
+}
+
+.texto h1{
+   margin: 65px 198px 80px 60px;
+}
+.texto p{
+    margin: 80px 60px 50px;
+    font-size: 25px;
+    line-height: 35px;
+}
+.carrossel .texto .saberMais{
+    margin: 65px 198px 80px 60px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+ }
+
+ .carrossel .texto .saberMais2{
+    color: #D9DD10;
+ }
+
+ .carrossel .texto .saberMais2{
+    color:  #C50000;
+ }
+
+ .carrossel .texto .saberMais4{
+    color: #10ACDD;
+ }
+
+ .botao{
+    width: 49px;
+    height:78px ;
+    margin-top:501px;
+ }
+
+ .btn-esquerdo {
+    margin-left:77px;
+ }
+ .btn-direita{
+    margin-left:1800px;
+ }
+
+ .pouca-opacidade{
+    opacity: 50%;
+ } */
