@@ -8,6 +8,6 @@ CSS
 JS
 
 # Como utilizar
-1 - Github pages: 
+1 - Github pages: https://lnkd.in/d9bXpHVv
 
-2 - Git clone:
+2 - Git clone: https://lnkd.in/dn2bgrDd
